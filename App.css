@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(-45deg,#003547,#c2bb00,#ed8b16,#005e54);
+  background-size: 400%;
+  animation: gradient 20s ease infinite;
+  height: 100vh;
+
+}
+
+.header{
+  text-align: center;
+  margin: 1rem;
+  
+  font-size: 0.75rem;
+  color: rgb(245, 240, 206);
+}
+
+.app{
+  display: grid;
+  place-content: center;
+  margin: 1rem auto 1rem;
+  max-width: 55%;
+}
+.main{
+  padding: 1rem;
+  max-width: 100%;
+
+
+}
+button{
+  border-radius: 50%;
+  background-color:rgb(222, 204, 180);
+  border: none;
+  height: 2rem;
+  width: 2rem;
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.p{
+  margin-top: 3px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family:'pathway gothic one',sans-serif;
+  text-indent: 1.25rem;
+}
+
+
+
+
